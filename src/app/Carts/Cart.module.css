@@ -43,7 +43,7 @@
 
 @media screen and (max-width : 480px) {
     .cartProducts {
-        grid-template-columns: 8% 42% 17% 20%  2%;
+        grid-template-columns: 11% 44% 17% 15%  2%;
 
     }
     .cartProducts {

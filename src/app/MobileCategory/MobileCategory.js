@@ -26,7 +26,7 @@ function MobileCategory(props) {
             <div>
                 <button onClick={() => setShowCategory(false)} className='btn '><FontAwesomeIcon icon={faClose} /></button>
             </div>
-            <Fade direction='right' duration={400}>
+            <Fade>
                 <ul>
                     {
                         categories && categories.map(data =>

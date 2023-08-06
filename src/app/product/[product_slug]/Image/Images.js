@@ -33,8 +33,8 @@ const Images = (props) => {
         <div>
             <div className=''>
                 <div className= {styles.bigImage} onClick={() => setOpen(true)}>
-                    {/* <img className='bigImage' src={images.images[imageIndex].image} alt="" /> */}
-                    <ReactImageZoom  width={300} zoomWidth={300} zoomPosition="original" img={imagesx && imagesx[imageIndex].image} />
+                    <img className='bigImage' src={imagesx && imagesx[imageIndex].image} alt="" />
+                    {/* <ReactImageZoom  width={300} zoomWidth={300} zoomPosition="original" img={imagesx && imagesx[imageIndex].image} /> */}
 
                     <Lightbox
                         plugins={[Thumbnails]}

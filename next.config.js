@@ -4,7 +4,7 @@ module.exports = {
     appDir: true,
   },
   images: {
-    domains: ['s3.amazonaws.com', 'aslam84.pythonanywhere.com']
+    domains: ['s3.amazonaws.com', '127.0.0.1']
   }
 
 }

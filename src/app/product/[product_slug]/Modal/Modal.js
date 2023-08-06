@@ -28,7 +28,7 @@ function Modali(props) {
                 <Modal.Body>
                     {
                         product.ratings.map((dta) =>
-                            <div style={{margin: "0 auto", width: "50%"}} key={dta.id} >
+                            <div className='col-md-6' style={{margin: "0 auto"}} key={dta.id} >
                                 <h5><FontAwesomeIcon className='text-muted' icon={faUser} /> {dta.rating_user_name}</h5>
                                 <Star starRating={dta.rating_point} />
                                 <p>{dta.rating_text}</p>
