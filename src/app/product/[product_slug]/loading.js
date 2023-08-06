@@ -4,7 +4,7 @@ import styles from './loading.module.css';
 const Loading = () => {
   return (
     <div className={styles.loadingFlex}>
-      {/* <div className={styles.loading}>
+      <div className={styles.loading}>
         <div>
           <div className={styles.loadingImage} />
         </div>
@@ -33,8 +33,7 @@ const Loading = () => {
           <div className={styles.loadingTitle2} />
           <div className={styles.loadingTitle2} />
         </div>
-      </div> */}
-    <p>Loading..</p>
+      </div> 
     </div>
   );
 };
