@@ -10,6 +10,10 @@ import RelatedProduct from './RelatedProduct/RelatedProduct';
 import RatingPost from './RatingPost/RatingPost';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+<<<<<<< HEAD
+=======
+
+>>>>>>> bc3dff2f5036d541869c88bfa6131fdb08c40631
 // import FacebookMessengerChat from '@/app/FacebookChat/FacebookChat';
 
 async function SingleProduct(product_slug) {
