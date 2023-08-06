@@ -1,0 +1,119 @@
+.navMobileMain {
+    display: none;
+}
+
+
+
+@media screen and (max-width : 768px) {
+    .navMobileMain {
+        display: block;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .navMobileBar {
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        z-index: 999;
+        box-shadow: 0 0 7px 1px black;
+        border-radius: 50px 50px 0 0px;
+        /* margin: 0 5%; */
+    }
+
+    .navMobileBar ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .navMobileBar li {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .navMobileBar a,
+    .buttonCart {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .buttonCart {
+        color: rgb(0, 0, 0);
+        margin-top: 6px;
+        font-size: 20px;
+    }
+
+    .navMobileBar a:hover {
+        color: #000;
+    }
+
+    .navMobileTop {
+        opacity: 0;
+        visibility: visible;
+        color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navMobileTopMenu {
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .navMobileTopScrolled {
+        opacity: 1;
+        visibility: visible;
+        z-index: 999;
+
+    }
+
+    .active {
+        background: rgb(239, 246, 255);
+        border-radius: 20px 20px 0 0;
+    }
+
+    .active a {
+        color: rgb(0, 30, 57) !important;
+    }
+    .search {
+        width: 100%;
+        display: flex;
+        margin: -5px 0 5px;
+        position: relative;
+        padding: 0 10px;
+    }
+    .search input {
+        width: 90%;
+        outline: none;
+        padding: 5px;
+        border-radius: 10px;
+        border: 0.5px solid rgba(0, 0, 0, 0.264);
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .searchIcon {
+        position: absolute;
+        right: 45px;
+        top: 28%;
+        font-size: 16px;
+        color: #00000099;
+    }
+
+}

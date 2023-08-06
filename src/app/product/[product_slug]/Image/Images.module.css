@@ -1,0 +1,42 @@
+
+.image_list_little {
+    list-style: none;
+    display: flex;
+}
+
+.image_list_little button {
+    border: 0.5px solid rgba(0, 0, 0, 0.395);
+    padding: 1px;
+    margin-right: 5px;
+}
+
+.image_list_little img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.image_list_little img:hover {
+    transform: scale(1.1);
+    /* increase the size by 10% */
+}
+
+
+.bigImage img {
+    height: 290px !important;
+    width: auto !important;
+    max-width: 90% !important;
+}
+
+@media screen and (max-width:767px) {
+    .image_list_little img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .bigImage img {
+        height: 230px !important;
+    }
+    
+    
+  }

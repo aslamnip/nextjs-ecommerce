@@ -1,0 +1,82 @@
+.mainFooter {
+    background:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+    padding: 40px 0;
+}
+
+.secondaryFooter {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.secondaryFooter p {
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.btoom-hr {
+    border-bottom: 1px solid #2c2c2c64;
+    padding-bottom: 10px;
+}
+
+.infodDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infodDiv div {
+    margin-left: auto;
+}
+
+.infodDiv p {
+
+    margin-left: 50px;
+}
+
+.fotterIconUl {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 0;
+
+}
+
+.fotterIconUl li {
+    margin-right: 10px;
+    /* background-color: rgb(0, 0, 0); */
+
+}
+
+.fotterIconUl a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .mainFooter {
+        margin-bottom: 20px;
+    }
+
+    .infodDiv p {
+
+        margin-left: 0px;
+        padding-left: 0;
+    }
+
+    .fotterIconUl {
+
+        margin-left: 0px;
+        padding: 0;
+
+    }
+
+}

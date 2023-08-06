@@ -1,0 +1,95 @@
+
+/* new */
+
+
+
+.sceondHeader {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.CarouselImage {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+.categroySection {
+    display: block;
+    
+}
+
+.categroySection ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: rgb(255, 255, 255);
+    height: 400px;
+    overflow: hidden;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.437);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.437);
+    position: relative;
+}
+
+.categroySection li {
+    padding:  5px 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.188);
+}
+.categroySection li:hover {
+   background-color: rgb(0, 0, 53)
+}
+.categroySection li:hover a {
+   color: rgb(230, 255, 226);
+ }
+.categroySection a {
+    color: rgba(0, 0, 0, 0.604);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+
+@media screen and (max-width : 1024px) {
+    .sceondHeader {
+        width: 100%;
+    }
+
+} 
+
+
+@media screen and (max-width : 768px) {
+    .sceondHeader {
+        display: block;
+    }
+    .categroySection {
+        display: none;
+        
+    }
+    
+.CarouselImage {
+   
+    height: 300px !important;
+}
+
+} 
+
+
+@media screen and (max-width : 480px) {
+    
+.CarouselImage {
+   
+    height: 220px !important;
+}
+
+} 
+
+
+@media screen and (max-width : 330) {
+    
+    .CarouselImage {
+       
+        height: 180px !important;
+    }
+    
+    } 
