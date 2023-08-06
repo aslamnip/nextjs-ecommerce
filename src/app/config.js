@@ -1,1 +1,1 @@
-export  const  fetchUrl = 'http://127.0.0.1:8000'
+export  const  fetchUrl = 'https://aslam84.pythonanywhere.com/'
